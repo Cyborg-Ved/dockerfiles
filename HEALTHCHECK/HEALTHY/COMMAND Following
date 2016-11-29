@@ -1,0 +1,9 @@
+COMMAND Following
+# docker build -t healthcheck .
+# docker ps     # (health :starting) First time 
+After sometime Again check
+# docker ps
+
+For optional 
+# docker inspect --format='{{json .State.Health}}' df507cce9ed6
+# docker ps
