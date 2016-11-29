@@ -1,5 +1,6 @@
 COMMAND Following
 # docker build -t healthcheck .
+# docker run -itd healthcheck
 # docker ps     # (health :starting) First time 
 After sometime Again check
 # docker ps
