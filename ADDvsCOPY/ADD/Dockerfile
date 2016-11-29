@@ -4,10 +4,10 @@ MAINTAINER TeamCloudYuga <ved@cloudyuga.guru>
 
 RUN mkdir /tmp/copywork
 
-COPY current-file /tmp/work/
+ADD current-file /tmp/work/
 
-COPY current-tar-gz.tar.gz /tmp/work/
+ADD current-tar-gz.tar.gz /tmp/work/
 
-COPY current-tar.tar /tmp/work/
+ADD current-tar.tar /tmp/work/
 
-COPY current-zip.zip /tmp/work/
+ADD current-zip.zip /tmp/work/
